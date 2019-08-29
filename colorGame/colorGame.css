@@ -1,0 +1,69 @@
+body{
+    background-color: #232323;
+    margin: 0; /* if you hide this line there will be black margins around the whole doc*/
+    font-family: "Montserrat", "Avenir";
+}
+
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: all 0.6s;
+}
+
+#container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+h1{
+    color: white;
+    line-height: 1.1;
+    text-align: center;
+    background: steelblue;
+    margin: 0; /* if you hide this line there will be black margins around the h1 area and there will be no space between h1 and the stripe div/class*/
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 20px 0; /* the 20px makes it so the top and bottom has 20px of padding. The 0 adds 0px of padding the the right and left. Flip the numbers and you get the reverse result */
+}
+
+#colorDisplay{
+    font-size: 200%;
+}
+
+#message {
+    display: inline-block;
+    width: 20%; /* makes the span tag (id message) take up 20% of the screen on the h1 line */
+}
+
+#stripe{
+    background: white;
+    height: 30px;
+    text-align: center;
+}
+
+.selected {
+    color: white;
+    background: steelblue;
+}
+
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    outline: none;
+}
+
+button:hover{
+    color: white;
+    background: steelblue;
+}
